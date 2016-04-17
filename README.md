@@ -1,6 +1,8 @@
 Python skeleton
 ===
 
+[![Build Status](https://travis-ci.org/l0b0/python-skeleton.svg)](https://travis-ci.org/l0b0/python-skeleton)
+
 How to use for your own project:
 
 1. Clone it to a new directory:
