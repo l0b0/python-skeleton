@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <ignored path=".idea/dataSources.local.xml"/>
+    <ignored path=".idea/workspace.xml"/>
+    <ignored path="python-skeleton.iws"/>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true"/>
+    <option name="HIGHLIGHT_CONFLICTS" value="true"/>
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false"/>
+    <option name="LAST_RESOLUTION" value="IGNORE"/>
+    <option name="SHOW_DIALOG" value="false"/>
+    <option name="TRACKING_ENABLED" value="true"/>
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false"/>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value=""/>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target"/>
+  <component name="FavoritesManager">
+    <favorites_list name="python-skeleton"/>
+  </component>
+  <component name="FileEditorManager">
+    <leaf/>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$"/>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view/>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tests/test_python_skeleton.py"/>
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true"/>
+  <component name="JsBuildToolPackageJson" detection-done="true"/>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds"/>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="0" id="Add"/>
+    <ConfirmationsSetting value="0" id="Remove"/>
+    <OptionsSetting value="true" id="Add"/>
+    <OptionsSetting value="true" id="Checkout"/>
+    <OptionsSetting value="true" id="Edit"/>
+    <OptionsSetting value="true" id="Remove"/>
+    <OptionsSetting value="true" id="Status"/>
+    <OptionsSetting value="true" id="Update"/>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <abbreviatePackageNames/>
+      <autoscrollFromSource/>
+      <autoscrollToSource/>
+      <flattenPackages/>
+      <foldersAlwaysOnTop value="true"/>
+      <hideEmptyPackages/>
+      <manualOrder/>
+      <showLibraryContents/>
+      <showMembers/>
+      <showModules/>
+      <sortByType/>
+    </navigator>
+    <panes>
+      <pane id="PackagesPane"/>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-skeleton"/>
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode"/>
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope"/>
+      <pane id="Scratches"/>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false"/>
+    <property name="aspect.path.notification.shown" value="true"/>
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node"/>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_skeleton.iml"/>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <method/>
+      <module name=""/>
+      <option name="PROGRAM_PARAMETERS"/>
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea"/>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <method/>
+      <module name=""/>
+      <option name="ACTIVITY_CLASS" value=""/>
+      <option name="ACTIVITY_EXTRA_FLAGS" value=""/>
+      <option name="ARTIFACT_NAME" value=""/>
+      <option name="CLEAR_LOGCAT" value="false"/>
+      <option name="DEEP_LINK" value=""/>
+      <option name="DEPLOY" value="true"/>
+      <option name="FORCE_STOP_RUNNING_APP" value="true"/>
+      <option name="MODE" value="default_activity"/>
+      <option name="PM_INSTALL_OPTIONS" value=""/>
+      <option name="PREFERRED_AVD" value=""/>
+      <option name="PREFERRED_AVD" value=""/>
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true"/>
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true"/>
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG"/>
+      <option name="USE_LAST_SELECTED_DEVICE" value="false"/>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <method/>
+      <module name=""/>
+      <option name="CLASS_NAME" value=""/>
+      <option name="CLEAR_LOGCAT" value="false"/>
+      <option name="EXTRA_OPTIONS" value=""/>
+      <option name="FORCE_STOP_RUNNING_APP" value="true"/>
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value=""/>
+      <option name="METHOD_NAME" value=""/>
+      <option name="PACKAGE_NAME" value=""/>
+      <option name="PREFERRED_AVD" value=""/>
+      <option name="PREFERRED_AVD" value=""/>
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true"/>
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true"/>
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG"/>
+      <option name="TESTING_TYPE" value="0"/>
+      <option name="USE_LAST_SELECTED_DEVICE" value="false"/>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <method/>
+      <module/>
+      <option name="HEIGHT" value="300"/>
+      <option name="HTML_USED" value="false"/>
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy"/>
+      <option name="WIDTH" value="400"/>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ENABLE_SWING_INSPECTOR" value="false"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="PROGRAM_PARAMETERS"/>
+      <option name="VM_PARAMETERS"/>
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$"/>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="METHOD_NAME"/>
+      <option name="PACKAGE_NAME"/>
+      <option name="PARAMETERS"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="TEST_OBJECT" value="class"/>
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule"/>
+      </option>
+      <option name="VM_PARAMETERS"/>
+      <option name="WORKING_DIRECTORY"/>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value=""/>
+        </value>
+      </option>
+      <patterns/>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <listeners/>
+      <method/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ANNOTATION_TYPE"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="GROUP_NAME"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="METHOD_NAME"/>
+      <option name="OUTPUT_DIRECTORY"/>
+      <option name="PACKAGE_NAME"/>
+      <option name="PARAMETERS"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="PROPERTIES_FILE"/>
+      <option name="SUITE_NAME"/>
+      <option name="TEST_OBJECT" value="CLASS"/>
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule"/>
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false"/>
+      <option name="VM_PARAMETERS"/>
+      <option name="WORKING_DIRECTORY"/>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value=""/>
+        </value>
+      </option>
+      <properties/>
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <envs/>
+      <method/>
+      <module name=""/>
+      <option name="INTERPRETER_OPTIONS" value=""/>
+      <option name="INTERPRETER_PATH" value="/sbin/bash"/>
+      <option name="PARAMETERS" value=""/>
+      <option name="PARENT_ENVS" value="true"/>
+      <option name="SCRIPT_NAME" value=""/>
+      <option name="WORKING_DIRECTORY" value=""/>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ENABLE_SWING_INSPECTOR" value="false"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="GLUE"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="PROGRAM_PARAMETERS"/>
+      <option name="VM_PARAMETERS"/>
+      <option name="WORKING_DIRECTORY"/>
+      <option name="myFilePath"/>
+      <option name="myGeneratedName"/>
+      <option name="myNameFilter"/>
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true"/>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false"/>
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false"/>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false"/>
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <envs/>
+      <method/>
+      <module name=""/>
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true"/>
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1"/>
+      </envs>
+      <method/>
+      <module name="python_skeleton"/>
+      <option name="ADD_CONTENT_ROOTS" value="true"/>
+      <option name="ADD_SOURCE_ROOTS" value="true"/>
+      <option name="CUSTOM_SETTINGS" value="false"/>
+      <option name="INTERPRETER_OPTIONS" value=""/>
+      <option name="IS_MODULE_SDK" value="false"/>
+      <option name="OPTIONS" value=""/>
+      <option name="PARENT_ENVS" value="true"/>
+      <option name="SDK_HOME" value=""/>
+      <option name="SETTINGS_FILE" value=""/>
+      <option name="TARGET" value=""/>
+      <option name="USE_OPTIONS" value="false"/>
+      <option name="WORKING_DIRECTORY" value=""/>
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <method/>
+      <option name="BCName" value=""/>
+      <option name="IOSSimulatorSdkPath" value=""/>
+      <option name="adlOptions" value=""/>
+      <option name="airProgramParameters" value=""/>
+      <option name="appDescriptorForEmulator" value="Android"/>
+      <option name="debugTransport" value="USB"/>
+      <option name="debuggerSdkRaw" value="BC SDK"/>
+      <option name="emulator" value="NexusOne"/>
+      <option name="emulatorAdlOptions" value=""/>
+      <option name="fastPackaging" value="true"/>
+      <option name="fullScreenHeight" value="0"/>
+      <option name="fullScreenWidth" value="0"/>
+      <option name="launchUrl" value="false"/>
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8"/>
+          <option name="launcherType" value="OSDefault"/>
+          <option name="newPlayerInstance" value="false"/>
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger"/>
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator"/>
+      <option name="moduleName" value=""/>
+      <option name="overriddenMainClass" value=""/>
+      <option name="overriddenOutputFileName" value=""/>
+      <option name="overrideMainClass" value="false"/>
+      <option name="runTrusted" value="true"/>
+      <option name="screenDpi" value="0"/>
+      <option name="screenHeight" value="0"/>
+      <option name="screenWidth" value="0"/>
+      <option name="url" value="http://"/>
+      <option name="usbDebugPort" value="7936"/>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <method/>
+      <option name="BCName" value=""/>
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8"/>
+          <option name="launcherType" value="OSDefault"/>
+          <option name="newPlayerInstance" value="false"/>
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger"/>
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value=""/>
+      <option name="trusted" value="true"/>
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName"/>
+        <option name="externalProjectPath"/>
+        <option name="externalSystemIdString" value="GRADLE"/>
+        <option name="scriptParameters"/>
+        <option name="taskDescriptions">
+          <list/>
+        </option>
+        <option name="taskNames">
+          <list/>
+        </option>
+        <option name="vmOptions"/>
+      </ExternalSystemSettings>
+      <method/>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+      <setting name="cmdLine" value="run-app"/>
+      <setting name="depsClasspath" value="false"/>
+      <setting name="launchBrowser" value="true"/>
+      <setting name="passParentEnv" value="true"/>
+      <setting name="vmparams" value=""/>
+    </configuration>
+    <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE=""/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false"/>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false"/>
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ENABLE_SWING_INSPECTOR" value="false"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="PROGRAM_PARAMETERS"/>
+      <option name="VM_PARAMETERS" value="-Dforce.jruby.jit=true -Djruby.debug.fullTrace=true"/>
+      <option name="WORKING_DIRECTORY"/>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="METHOD_NAME"/>
+      <option name="PACKAGE_NAME"/>
+      <option name="PARAMETERS"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="TEST_OBJECT" value="class"/>
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule"/>
+      </option>
+      <option name="VM_PARAMETERS" value="-ea"/>
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$"/>
+      <patterns/>
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="METHOD_NAME"/>
+      <option name="PACKAGE_NAME"/>
+      <option name="PARAMETERS"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="TEST_OBJECT" value="class"/>
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule"/>
+      </option>
+      <option name="VM_PARAMETERS"/>
+      <option name="WORKING_DIRECTORY"/>
+      <patterns/>
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ENABLE_SWING_INSPECTOR" value="false"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="PROGRAM_PARAMETERS"/>
+      <option name="SCRATCH_FILE_ID" value="0"/>
+      <option name="VM_PARAMETERS"/>
+      <option name="WORKING_DIRECTORY"/>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method/>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+      <module name="python-skeleton"/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="PROGRAM_PARAMETERS"/>
+      <option name="VM_PARAMETERS"/>
+      <option name="WORKING_DIRECTORY"/>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+      <option name="alternativeJrePath"/>
+      <option name="filePath"/>
+      <option name="isAlternativeJrePathEnabled" value="false"/>
+      <option name="passParentEnvs" value="true"/>
+      <option name="programParameters"/>
+      <option name="vmParameters"/>
+      <option name="workingDirectory"/>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
+      <envs/>
+      <method/>
+      <module name="python_skeleton"/>
+      <option name="ADDITIONAL_ARGS" value=""/>
+      <option name="ADD_CONTENT_ROOTS" value="true"/>
+      <option name="ADD_SOURCE_ROOTS" value="true"/>
+      <option name="INTERPRETER_OPTIONS" value=""/>
+      <option name="IS_MODULE_SDK" value="false"/>
+      <option name="PARENT_ENVS" value="true"/>
+      <option name="SDK_HOME" value=""/>
+      <option name="WORKING_DIRECTORY" value=""/>
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
+      <envs/>
+      <method/>
+      <module name="python_skeleton"/>
+      <option name="ADDITIONAL_ARGS" value=""/>
+      <option name="ADD_CONTENT_ROOTS" value="true"/>
+      <option name="ADD_SOURCE_ROOTS" value="true"/>
+      <option name="INTERPRETER_OPTIONS" value=""/>
+      <option name="IS_MODULE_SDK" value="false"/>
+      <option name="PARENT_ENVS" value="true"/>
+      <option name="SDK_HOME" value=""/>
+      <option name="WORKING_DIRECTORY" value=""/>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1"/>
+      </envs>
+      <method/>
+      <module name="python-skeleton"/>
+      <option name="ADD_CONTENT_ROOTS" value="true"/>
+      <option name="ADD_SOURCE_ROOTS" value="true"/>
+      <option name="INTERPRETER_OPTIONS" value=""/>
+      <option name="IS_MODULE_SDK" value="false"/>
+      <option name="PARAMETERS" value=""/>
+      <option name="PARENT_ENVS" value="true"/>
+      <option name="SCRIPT_NAME" value=""/>
+      <option name="SDK_HOME" value=""/>
+      <option name="SHOW_COMMAND_LINE" value="false"/>
+      <option name="WORKING_DIRECTORY" value=""/>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <method/>
+      <option name="HOST" value="localhost"/>
+      <option name="PORT" value="5005"/>
+      <option name="SERVER_MODE" value="false"/>
+      <option name="SHMEM_ADDRESS" value="javadebug"/>
+      <option name="USE_SOCKET_TRANSPORT" value="true"/>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <method/>
+      <module name=""/>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <listeners/>
+      <method/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ANNOTATION_TYPE"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="GROUP_NAME"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="METHOD_NAME"/>
+      <option name="OUTPUT_DIRECTORY"/>
+      <option name="PACKAGE_NAME"/>
+      <option name="PARAMETERS"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="PROPERTIES_FILE"/>
+      <option name="SUITE_NAME"/>
+      <option name="TEST_OBJECT" value="CLASS"/>
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule"/>
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false"/>
+      <option name="VM_PARAMETERS" value="-ea"/>
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$"/>
+      <properties/>
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <envs/>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+      <listeners/>
+      <method/>
+      <module name=""/>
+      <option name="ALTERNATIVE_JRE_PATH"/>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+      <option name="ANNOTATION_TYPE"/>
+      <option name="ENV_VARIABLES"/>
+      <option name="GROUP_NAME"/>
+      <option name="MAIN_CLASS_NAME"/>
+      <option name="METHOD_NAME"/>
+      <option name="OUTPUT_DIRECTORY"/>
+      <option name="PACKAGE_NAME"/>
+      <option name="PARAMETERS"/>
+      <option name="PASS_PARENT_ENVS" value="true"/>
+      <option name="PROPERTIES_FILE"/>
+      <option name="SUITE_NAME"/>
+      <option name="TEST_OBJECT" value="CLASS"/>
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule"/>
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false"/>
+      <option name="VM_PARAMETERS"/>
+      <option name="WORKING_DIRECTORY"/>
+      <properties/>
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false"/>
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false"/>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false"/>
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE=""/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false"/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)"/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE=""/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false"/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false"/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE=""/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE=""/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE=""/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE=""/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT"/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE=""/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false"/>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true"/>
+      <envs/>
+      <method/>
+      <module name=""/>
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true"/>
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
+      <envs/>
+      <method/>
+      <module name="python_skeleton"/>
+      <option name="ADD_CONTENT_ROOTS" value="true"/>
+      <option name="ADD_SOURCE_ROOTS" value="true"/>
+      <option name="INTERPRETER_OPTIONS" value=""/>
+      <option name="IS_MODULE_SDK" value="false"/>
+      <option name="PARENT_ENVS" value="true"/>
+      <option name="SDK_HOME" value=""/>
+      <option name="WORKING_DIRECTORY" value=""/>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <arguments/>
+      <envs/>
+      <gulpfile/>
+      <method/>
+      <node-interpreter>project</node-interpreter>
+      <node-options/>
+      <tasks/>
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script"/>
+      <envs/>
+      <method/>
+      <node-interpreter value="project"/>
+      <scripts/>
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method/>
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method/>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
+      <envs/>
+      <method/>
+      <module name="python_skeleton"/>
+      <option name="ADD_CONTENT_ROOTS" value="true"/>
+      <option name="ADD_SOURCE_ROOTS" value="true"/>
+      <option name="CLASS_NAME" value=""/>
+      <option name="FOLDER_NAME" value=""/>
+      <option name="INTERPRETER_OPTIONS" value=""/>
+      <option name="IS_MODULE_SDK" value="false"/>
+      <option name="METHOD_NAME" value=""/>
+      <option name="PARENT_ENVS" value="true"/>
+      <option name="PATTERN" value=""/>
+      <option name="SCRIPT_NAME" value=""/>
+      <option name="SDK_HOME" value=""/>
+      <option name="TEST_TYPE" value="TEST_SCRIPT"/>
+      <option name="USE_PATTERN" value="false"/>
+      <option name="WORKING_DIRECTORY" value=""/>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
+      <envs/>
+      <method/>
+      <module name="python_skeleton"/>
+      <option name="ADD_CONTENT_ROOTS" value="true"/>
+      <option name="ADD_SOURCE_ROOTS" value="true"/>
+      <option name="CLASS_NAME" value=""/>
+      <option name="FOLDER_NAME" value=""/>
+      <option name="INTERPRETER_OPTIONS" value=""/>
+      <option name="IS_MODULE_SDK" value="false"/>
+      <option name="METHOD_NAME" value=""/>
+      <option name="PARENT_ENVS" value="true"/>
+      <option name="PATTERN" value=""/>
+      <option name="SCRIPT_NAME" value=""/>
+      <option name="SDK_HOME" value=""/>
+      <option name="TEST_TYPE" value="TEST_SCRIPT"/>
+      <option name="USE_PATTERN" value="false"/>
+      <option name="WORKING_DIRECTORY" value=""/>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
+      <envs/>
+      <method/>
+      <module name="python_skeleton"/>
+      <option name="ADD_CONTENT_ROOTS" value="true"/>
+      <option name="ADD_SOURCE_ROOTS" value="true"/>
+      <option name="CLASS_NAME" value=""/>
+      <option name="FOLDER_NAME" value=""/>
+      <option name="INTERPRETER_OPTIONS" value=""/>
+      <option name="IS_MODULE_SDK" value="false"/>
+      <option name="METHOD_NAME" value=""/>
+      <option name="PARAMS" value=""/>
+      <option name="PARENT_ENVS" value="true"/>
+      <option name="PATTERN" value=""/>
+      <option name="SCRIPT_NAME" value=""/>
+      <option name="SDK_HOME" value=""/>
+      <option name="TEST_TYPE" value="TEST_SCRIPT"/>
+      <option name="USE_PARAM" value="false"/>
+      <option name="USE_PATTERN" value="false"/>
+      <option name="WORKING_DIRECTORY" value=""/>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
+      <envs/>
+      <method/>
+      <module name="python-skeleton"/>
+      <option name="ADD_CONTENT_ROOTS" value="true"/>
+      <option name="ADD_SOURCE_ROOTS" value="true"/>
+      <option name="CLASS_NAME" value=""/>
+      <option name="FOLDER_NAME" value=""/>
+      <option name="INTERPRETER_OPTIONS" value=""/>
+      <option name="IS_MODULE_SDK" value="false"/>
+      <option name="METHOD_NAME" value=""/>
+      <option name="PARAMS" value=""/>
+      <option name="PARENT_ENVS" value="true"/>
+      <option name="PATTERN" value=""/>
+      <option name="PUREUNITTEST" value="true"/>
+      <option name="SCRIPT_NAME" value=""/>
+      <option name="SDK_HOME" value=""/>
+      <option name="TEST_TYPE" value="TEST_SCRIPT"/>
+      <option name="USE_PARAM" value="false"/>
+      <option name="USE_PATTERN" value="false"/>
+      <option name="WORKING_DIRECTORY" value=""/>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
+      <envs/>
+      <method/>
+      <module name="python-skeleton"/>
+      <option name="ADD_CONTENT_ROOTS" value="true"/>
+      <option name="ADD_SOURCE_ROOTS" value="true"/>
+      <option name="CLASS_NAME" value=""/>
+      <option name="FOLDER_NAME" value=""/>
+      <option name="INTERPRETER_OPTIONS" value=""/>
+      <option name="IS_MODULE_SDK" value="false"/>
+      <option name="METHOD_NAME" value=""/>
+      <option name="PARENT_ENVS" value="true"/>
+      <option name="PATTERN" value=""/>
+      <option name="SCRIPT_NAME" value=""/>
+      <option name="SDK_HOME" value=""/>
+      <option name="TEST_TYPE" value="TEST_SCRIPT"/>
+      <option name="USE_KEYWORD" value="false"/>
+      <option name="USE_PARAM" value="false"/>
+      <option name="USE_PATTERN" value="false"/>
+      <option name="WORKING_DIRECTORY" value=""/>
+      <option name="keywords" value=""/>
+      <option name="params" value=""/>
+      <option name="testToRun" value=""/>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false"/>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration/>
+  </component>
+  <component name="TaskManager">
+    <servers/>
+  </component>
+  <component name="TimeTrackingManager"/>
+  <component name="ToolWindowManager">
+    <editor active="false"/>
+    <layout>
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs"/>
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs"/>
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs"/>
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs"/>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs"/>
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs"/>
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs"/>
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs"/>
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs"/>
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs"/>
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs"/>
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo"/>
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs"/>
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs"/>
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs"/>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs"/>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs"/>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs"/>
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs"/>
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs"/>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs"/>
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs"/>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs"/>
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs"/>
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection/>
+    </option>
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection/>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000"/>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2"/>
+    </breakpoint-manager>
+    <watches-manager/>
+  </component>
+</project>
