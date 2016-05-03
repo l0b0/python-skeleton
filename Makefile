@@ -32,6 +32,7 @@ install: virtualenv
 
 .PHONY: clean
 clean: clean-build clean-test
+	make METHOD=git sort-xml-files
 
 .PHONY: clean-build
 clean-build: clean-build-third-party clean-build-local
@@ -54,3 +55,4 @@ clean-test:
 include configuration.mk
 include make-includes/python.mk
 include make-includes/variables.mk
+include make-includes/xml.mk
