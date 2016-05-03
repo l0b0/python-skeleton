@@ -19,7 +19,7 @@ How to use for your own project:
         sed --in-place "s/python_skeleton/${project}/g" tests/test_python_skeleton.py
         git mv python_skeleton/python_skeleton.py "python_skeleton/${project}.py"
         git mv python_skeleton "$project"
-        git mv tests/test_python_skeleton.py tests/test_${project}.py
+        git mv tests/test_python_skeleton.py "tests/test_${project}.py"
 
 Test
 ---
