@@ -14,7 +14,11 @@ How to use for your own project:
         project=your_project_name
         sed --in-place "s/python-skeleton/${project//_/-}/g;s/python_skeleton/${project}/g" .idea/*.{i,x}ml
         git mv .idea/python_skeleton.iml ".idea/${project}.iml"
-1. Replace the `python_skeleton` module and test file with your own code
+1. Replace the `python_skeleton` module and test file with your own code:
+
+        git mv python_skeleton/python_skeleton.py "python_skeleton/${project}.py"
+        git mv python_skeleton "$project"
+        git mv tests/test_python_skeleton.py tests/test_${project}.py
 
 Test
 ---
