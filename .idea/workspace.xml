@@ -87,7 +87,6 @@
     <property name="WebServerToolWindowFactoryState" value="false"/>
     <property name="aspect.path.notification.shown" value="true"/>
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node"/>
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_skeleton.iml"/>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">

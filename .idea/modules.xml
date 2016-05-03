@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/python_skeleton.iml" filepath="$PROJECT_DIR$/python_skeleton.iml"/>
+      <module fileurl="file://$PROJECT_DIR$/.idea/python_skeleton.iml" filepath="$PROJECT_DIR$/.idea/python_skeleton.iml"/>
     </modules>
   </component>
 </project>
