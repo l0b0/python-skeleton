@@ -9,6 +9,9 @@ How to use for your own project:
 
         git clone --recursive git@github.com:l0b0/python-skeleton.git your-project-name
         cd your-project-name
+1. Use your own project remote:
+
+        sed --in-place 's#git@github.com:l0b0/python-skeleton.git#your-project-remote#' .git/config
 1. Replace the `python_skeleton` module and test file with your own code:
 
         sed --in-place "s/python_skeleton/${project}/g" tests/test_python_skeleton.py
