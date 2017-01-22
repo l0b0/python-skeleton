@@ -1,7 +1,5 @@
-Python skeleton
+Python skeleton [![Build Status](https://travis-ci.org/l0b0/python-skeleton.svg)](https://travis-ci.org/l0b0/python-skeleton)
 ===
-
-[![Build Status](https://travis-ci.org/l0b0/python-skeleton.svg)](https://travis-ci.org/l0b0/python-skeleton)
 
 Use
 ---
