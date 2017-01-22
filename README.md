@@ -7,6 +7,8 @@ Boilerplate for a Python project with built-in testing:
 - 100% coverage
 - Mock use example
 - PEP8 validated
+- Builds successfully with Python 2.6 through 3.6
+- Travis CI integration
 
 Use
 ---
@@ -25,6 +27,11 @@ Use
         git mv python_skeleton "$project"
         git mv tests/test_python_skeleton.py "tests/test_${project}.py"
 1. See [`configuration.mk`](configuration.mk) for build options
+
+Travis CI specifics:
+
+- After setting up you'll need to modify the URL at the top of this file to point to your build status
+- Modify [.travis.yml](.travis.yml) if you want to test with a different set of Python versions
 
 IntelliJ IDEA specifics:
 
