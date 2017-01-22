@@ -12,7 +12,7 @@
     <option name="TRACKING_ENABLED" value="true"/>
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python-skeleton$Unittests_in_python_skeleton.coverage" NAME="Unittests in python-skeleton Coverage Results" MODIFIED="1485101183073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$"/>
+    <SUITE FILE_PATH="coverage/python-skeleton$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1485102179502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests"/>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value=""/>
@@ -97,30 +97,7 @@
     <property name="aspect.path.notification.shown" value="true"/>
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node"/>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in python-skeleton">
-    <configuration default="false" name="Unittests in python-skeleton" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
-      <envs/>
-      <method/>
-      <module name="python_skeleton"/>
-      <option name="ADD_CONTENT_ROOTS" value="true"/>
-      <option name="ADD_SOURCE_ROOTS" value="true"/>
-      <option name="CLASS_NAME" value=""/>
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$"/>
-      <option name="INTERPRETER_OPTIONS" value=""/>
-      <option name="IS_MODULE_SDK" value="true"/>
-      <option name="METHOD_NAME" value=""/>
-      <option name="PARAMS" value=""/>
-      <option name="PARENT_ENVS" value="true"/>
-      <option name="PATTERN" value=""/>
-      <option name="PUREUNITTEST" value="true"/>
-      <option name="SCRIPT_NAME" value=""/>
-      <option name="SDK_HOME" value=""/>
-      <option name="TEST_TYPE" value="TEST_FOLDER"/>
-      <option name="USE_PARAM" value="false"/>
-      <option name="USE_PATTERN" value="false"/>
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$"/>
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in tests">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <method/>
       <module name=""/>
@@ -837,7 +814,7 @@
       <option name="testToRun" value=""/>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in python-skeleton"/>
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in tests"/>
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">

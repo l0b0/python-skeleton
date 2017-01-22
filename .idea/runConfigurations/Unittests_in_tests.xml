@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Unittests in tests" type="tests" factoryName="Unittests" nameIsGenerated="true">
+    <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
+    <envs/>
+    <method/>
+    <module name="python_skeleton"/>
+    <option name="ADD_CONTENT_ROOTS" value="true"/>
+    <option name="ADD_SOURCE_ROOTS" value="true"/>
+    <option name="CLASS_NAME" value=""/>
+    <option name="FOLDER_NAME" value="$PROJECT_DIR$/tests"/>
+    <option name="INTERPRETER_OPTIONS" value=""/>
+    <option name="IS_MODULE_SDK" value="true"/>
+    <option name="METHOD_NAME" value=""/>
+    <option name="PARAMS" value=""/>
+    <option name="PARENT_ENVS" value="true"/>
+    <option name="PATTERN" value=""/>
+    <option name="PUREUNITTEST" value="true"/>
+    <option name="SCRIPT_NAME" value=""/>
+    <option name="SDK_HOME" value="$PROJECT_DIR$/virtualenv/bin/python"/>
+    <option name="TEST_TYPE" value="TEST_FOLDER"/>
+    <option name="USE_PARAM" value="false"/>
+    <option name="USE_PATTERN" value="false"/>
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests"/>
+  </configuration>
+</component>
