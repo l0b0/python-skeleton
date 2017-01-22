@@ -23,7 +23,7 @@ How to use for your own project:
         project=your_project_name
         sed --in-place "s/python-skeleton/${project//_/-}/g;s/python_skeleton/${project}/g" .idea/*.{i,x}ml
         git mv .idea/python_skeleton.iml ".idea/${project}.iml"
-1. See `configuration.mk` for build options
+1. See [`configuration.mk`](configuration.mk) for build options
 
 Test
 ---
