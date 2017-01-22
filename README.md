@@ -1,6 +1,13 @@
 Python skeleton [![Build Status](https://travis-ci.org/l0b0/python-skeleton.svg)](https://travis-ci.org/l0b0/python-skeleton)
 ===
 
+Boilerplate for a Python project with built-in testing:
+
+- Unit tested
+- 100% coverage
+- Mock use example
+- PEP8 validated
+
 Use
 ---
 
