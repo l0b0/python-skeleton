@@ -7,17 +7,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <ConfirmationsSetting value="0" id="Add"/>
-    <ConfirmationsSetting value="0" id="Remove"/>
-    <OptionsSetting value="true" id="Add"/>
-    <OptionsSetting value="true" id="Checkout"/>
-    <OptionsSetting value="true" id="Edit"/>
-    <OptionsSetting value="true" id="Remove"/>
-    <OptionsSetting value="true" id="Status"/>
-    <OptionsSetting value="true" id="Update"/>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="false" assert-keyword="false" jdk-15="false" project-jdk-name="Python 3.5.1 virtualenv at ~/dev/python-skeleton/virtualenv" project-jdk-type="Python SDK"/>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="false" project-jdk-name="Python 3.6.0 virtualenv at ~/dev/python-skeleton/virtualenv" project-jdk-type="Python SDK"/>
   <component name="PythonCompatibilityInspectionAdvertiser">
     <option name="version" value="1"/>
   </component>
