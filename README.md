@@ -3,7 +3,8 @@ Python skeleton
 
 [![Build Status](https://travis-ci.org/l0b0/python-skeleton.svg)](https://travis-ci.org/l0b0/python-skeleton)
 
-How to use for your own project:
+Use
+---
 
 1. Clone it to a new directory:
 
@@ -18,11 +19,18 @@ How to use for your own project:
         git mv python_skeleton/python_skeleton.py "python_skeleton/${project}.py"
         git mv python_skeleton "$project"
         git mv tests/test_python_skeleton.py "tests/test_${project}.py"
-1. If you're using IDEA, replace the references in the configuration:
+1. See [`configuration.mk`](configuration.mk) for build options
+
+IntelliJ IDEA specifics:
+
+- If you're using IDEA, replace the references in the configuration:
 
         sed --in-place "s/python-skeleton/${project//_/-}/g;s/python_skeleton/${project}/g" .idea/*.{i,x}ml
         git mv .idea/python_skeleton.iml ".idea/${project}.iml"
-1. See [`configuration.mk`](configuration.mk) for build options
+    if not, simply delete the configuration:
+
+        git rm -r .idea
+- Make sure to run `make test-dependencies` before using the included test target.
 
 Test
 ---
