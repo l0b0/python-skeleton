@@ -7,7 +7,7 @@ Boilerplate for a Python project with built-in testing:
 - 100% coverage
 - Mock use example
 - PEP8 validated
-- Builds successfully with Python 2.6 through 3.6
+- Builds successfully with Python 2.6 through 3.6 and PyPy 2 + 3
 - Travis CI integration
 - IntelliJ IDEA integration
 
