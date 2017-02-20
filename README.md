@@ -9,6 +9,7 @@ Boilerplate for a Python project with built-in testing:
 - PEP8 validated
 - Builds successfully with Python 2.6 through 3.6
 - Travis CI integration
+- IntelliJ IDEA integration
 
 Use
 ---
