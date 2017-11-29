@@ -1,0 +1,11 @@
+/build/
+/.dockerignore
+/.git*
+/.idea/
+/.travis.yml
+/Dockerfile
+/Makefile
+/configuration.mk
+/make-includes/
+/README.md
+/virtualenv/

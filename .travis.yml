@@ -12,4 +12,10 @@ matrix:
     - python: pypy3
     - python: nightly
 
-script: python setup.py test
+install:
+  - pip install --no-cache-dir --requirement requirements.txt
+
+script:
+  - pep8 --max-line-length=120 .
+  - coverage run setup.py test
+  - coverage report --include='python_skeleton/*' --fail-under=100

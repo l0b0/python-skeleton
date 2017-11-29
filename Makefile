@@ -4,16 +4,11 @@ PACKAGE_NAME = $(subst -,_,$(NAME))
 .PHONY: all
 all: build
 
-.PHONY: test-dependencies
-test-dependencies: virtualenv
-	. virtualenv/bin/activate && pip install --requirement requirements.txt || exit $$?; \
-
 .PHONY: test
-test: test-dependencies
-	. virtualenv/bin/activate && \
-		make METHOD=git python-pep8 && \
-		PYTHONPATH=. coverage run setup.py test && \
-		coverage report --include='$(PACKAGE_NAME)/*' --fail-under=100
+test:
+	docker build --network host --tag=$(PACKAGE_NAME) --build-arg=PACKAGE=$(PACKAGE_NAME) .
+	docker run --rm $(PACKAGE_NAME) /venv/bin/pep8 --max-line-length=120 .
+	docker run --rm $(PACKAGE_NAME) /bin/bash -c "/venv/bin/coverage run setup.py test && /venv/bin/coverage report --include='./$(PACKAGE_NAME)/*' --fail-under=100"
 
 .PHONY: test-clean
 test-clean:
@@ -49,7 +44,6 @@ clean-build-local:
 
 .PHONY: clean-test
 clean-test:
-	-$(RM) .coverage
 	-$(RM) virtualenv
 
 include configuration.mk
