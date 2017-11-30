@@ -16,6 +16,6 @@ install:
   - pip install --no-cache-dir --requirement requirements.txt
 
 script:
-  - pep8 --max-line-length=120 .
+  - pep8 $(grep ^PEP8_OPTIONS configuration.mk | cut --delimiter=' ' --fields=3-) .
   - coverage run setup.py test
   - coverage report --include='python_skeleton/*' --fail-under=100

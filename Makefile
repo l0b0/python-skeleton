@@ -7,7 +7,7 @@ all: build
 .PHONY: test
 test:
 	docker-compose build
-	docker-compose run --rm python /venv/bin/pep8 --max-line-length=120 .
+	docker-compose run --rm python /venv/bin/pep8 $(PEP8_OPTIONS) .
 	docker-compose run --rm python /bin/bash -c "/venv/bin/coverage run setup.py test && /venv/bin/coverage report --include='./$(PACKAGE_NAME)/*' --fail-under=100"
 
 .PHONY: test-clean
