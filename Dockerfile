@@ -5,7 +5,6 @@ RUN python -m venv venv
 COPY requirements.txt /tmp
 RUN /venv/bin/pip install --no-cache-dir --requirement /tmp/requirements.txt
 
-ARG PACKAGE
-WORKDIR /tmp/$PACKAGE
+WORKDIR /tmp/python_skeleton
 
 COPY . .
