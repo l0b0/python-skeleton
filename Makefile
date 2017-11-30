@@ -6,9 +6,9 @@ all: build
 
 .PHONY: test
 test:
-	docker build --network host --tag=$(PACKAGE_NAME) --build-arg=PACKAGE=$(PACKAGE_NAME) .
-	docker run --rm $(PACKAGE_NAME) /venv/bin/pep8 --max-line-length=120 .
-	docker run --rm $(PACKAGE_NAME) /bin/bash -c "/venv/bin/coverage run setup.py test && /venv/bin/coverage report --include='./$(PACKAGE_NAME)/*' --fail-under=100"
+	docker-compose build
+	docker-compose run --rm python /venv/bin/pep8 --max-line-length=120 .
+	docker-compose run --rm python /bin/bash -c "/venv/bin/coverage run setup.py test && /venv/bin/coverage report --include='./$(PACKAGE_NAME)/*' --fail-under=100"
 
 .PHONY: test-clean
 test-clean:
